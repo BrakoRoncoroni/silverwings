@@ -129,6 +129,13 @@ footer{
     height: 150px;
     width: 150px;
 }
+.prod a img:hover{
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 10px 5px rgb(110, 110, 110);
+    height: 155px;
+    width: 155px;
+    transition: 0.5s;
+}
 .prod h3{
     font-size:x-large;
 }
@@ -138,4 +145,17 @@ footer{
 .prod h5{
 text-align: end;
 font-size: medium;
+}
+
+.returnbutton{
+    text-align: end;
+    margin-bottom: 10px;
+}
+.returnbutton a{
+    text-decoration: none;
+    color:#111
+}
+.returnbutton a:hover{
+    box-shadow: 0px 2px 5px 0px;
+    transition: 0.4s;
 }

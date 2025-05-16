@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+ flex: 90%;
+}
+
+/* ------------------------HEADER-------------------------------- */
+header{
+  background: radial-gradient(circle at center, #333 0%, #111 100%);
+}
+
+.header{
+    display: flex;
+    color: rgb(161, 160, 160);
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 160px;
+    height: 160px;
+}
+/* ------------------------INDEX - MAIN------------------------- */
+.carousel-inner{
+    background-color: white;
+    border-bottom: 2px solid black;
+    justify-content: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.carousel-inner img{
+    height: 350px;
+    width: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* Section Categorias */
+.categorias{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.categorias div{
+    text-align: center;
+}
+.categorias div a{
+    text-decoration: none;
+    color: #333;
+}
+
+.categorias div a img{
+    margin-bottom: 10px;
+}
+.categorias div a img:hover{
+    margin-bottom: 15px;
+    height: 190px;
+    width: 190px;
+    transition: 0.2s;
+}
+.categorias div h3{
+    font-size: large;
+}
+.imgcategoria{
+    height: 180px;
+    width: 180px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 0px rgb(110, 110, 110);
+}
+.subtitulo{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+/*-------------FOOTER-------------------- */
+footer{
+  background: radial-gradient(circle at center, #333 0%, #111 100%);
+    color: rgb(161, 160, 160);
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ----------------------------Estilos categorias------------------------ */
+
+.catalogopage{
+    display: flex;
+}
+.catalogo h2{
+    margin-top: 15px;
+    text-align: center;
+}
+.barralat{
+    background-color: rgb(110, 110, 110);
+    color: aliceblue;
+    padding: 10px;
+    bottom: 0;
+    width: 12%;
+    font-size: medium;
+}
+.sectioncatalogo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-left: 15%;
+    margin-top: 3%;
+    margin-bottom: 20px;
+}
+.prod{
+    height: auto;
+    width: 300px;
+    padding: 5px;
+    box-shadow: 5px 5px 10px 0px rgb(110, 110, 110);
+}
+.prod a img{
+    height: 150px;
+    width: 150px;
+}
+.prod h3{
+    font-size:x-large;
+}
+.prod h4{
+    font-size: large;
+}
+.prod h5{
+text-align: end;
+font-size: medium;
+}

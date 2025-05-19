@@ -172,6 +172,8 @@ font-size: medium;
 .enviar{
     border-radius: 2px;
     padding: 5px;
+    text-decoration: none;
+    color: #111;
 }
 
 /* Mediaqueries para Tablet */
